@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+*{
+  margin:0;
+  padding:0;
+}
+html {
+  list-style-type: none;
+  font-size: 10px;
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, serif;
+}
+
+/*** nav  ******************************************/
+#wrapper {
+  margin: 0 auto;
+  height: 100%;
+}
+
+header {
+  width: 1000px;
+  margin: 50px auto;
+  position: relative;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style-type: none;
+}
+.gnav {
+  transform: skewX(-45deg);
+  width: 150px;
+  height: 35px;
+  margin-right: 2em;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5em;
+}
+.gnav:last-child {
+  margin-right: 0;
+}
+nav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+nav li p {
+  transform: skewX(45deg);
+  padding-top: 0.6em;
+}
+nav li a:hover {
+  background-color: #00cc00;
+}
+
+/*** main ******************************************/
+.contents {
+  margin-bottom: 5em;
+  line-height: 5em;
+  background-color: #f1f1f1;
+}
+.con2 {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.intro {
+  margin-top: 1em;
+  text-align: right;
+  font-size: 1.6em;
+}
+.sign {
+  margin-top: 3em;
+  text-align: right;
+  font-weight: bold;
+}
+
+/*** footer ******************************************/
+footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  width: 1000px;
+  margin: 0 auto 10px auto;
+  -ms-align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-size: 1.2em;
+}
+
+/*** web ******************************************/
+.main-wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+.wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 50px;
+  background-color: #ccff33;
+}
+#web, #photo, #dtp {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  color: rgb(27, 37, 56);
+}
+
+figure.cp_caption {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 180px;
+  margin: 25px 25px;
+  text-align: center;
+  color: #fff;
+  background: rgba(27, 37, 56, 1);
+}
+figure.cp_caption * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+figure.cp_caption img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+  opacity: 1;
+}
+figure.cp_caption figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3em 3em;
+}
+figure.cp_caption figcaption::before {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  bottom: 50%;
+  left: 30px;
+  content: '';
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  opacity: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: #fff;
+}
+figure.cp_caption h2,
+figure.cp_caption p {
+  margin: 0 0 5px;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+          transition: opacity 0.3s, transform 0.3s;
+  opacity: 0;
+}
+figure.cp_caption p {
+  font-size: 1.5em;
+}
+figure.cp_caption a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+figure.cp_caption:hover img {
+  opacity: 0.35;
+}
+figure.cp_caption:hover figcaption h2 {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  -webkit-transform: translate3d(0%, 0%, 0);
+          transform: translate3d(0%, 0%, 0);
+  opacity: 1;
+}
+figure.cp_caption:hover figcaption p {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  opacity: 0.9;
+}
+figure.cp_caption:hover figcaption::before {
+  top: 30px;
+  bottom: 30px;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 1;
+  background: rgba(27, 37, 56, 0);
+}
+
+
+
