@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>定山渓 北関湯</title>
+    <meta name="description" content="サイトの説明文64文字程度">
+    <meta name="keywords" content="キーワード1, キーワード2, キーワード3">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&amp;subset=japanese" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/overcast/jquery-ui.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.slider').bxSlider({
+      auto:true,
+      mode:'fade',
+      pager:false
+    });
+  });
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+<script>
+  $(function() {
+    $("#datepicker").datepicker().datepicker('setDate','today');
+  });
+</script>
+</head>
+
+<body>
+  <div id="inner-box">
+ 	<header>
+    <div class="wrapper">
+    <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+ 		<div class="reservation">
+      <form action="#">
+        <table>
+          <tbody>
+            <tr>
+              <td class="td-1">
+                <dl class="r-form">
+                  <dt><strong>ご宿泊希望日</strong></dt>
+                    <dd>
+                    <input type="text" name="date" value="" id="datepicker">
+                    </dd>
+                </dl>
+              </td>
+              <td class="td-2">
+                <dl class="r-form">
+                  <dt><strong>宿泊日数</strong></dt>
+                    <dd>
+                    <select class="input">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+                    <span class="span-txt">泊</span>
+                    </dd>
+                  </dl>
+                </td>
+                <td class="td-3">
+                  <dl class="r-form">
+                    <dt><strong>部屋数</strong></dt>
+                      <dd>
+                      <select class="input">
+                        <option value="1" selected="">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                      <span class="span-txt">部屋</span>
+                    </dd>
+                  </dl>
+                </td>
+                <td class="td-4">
+                  <dl class="r-form">
+                    <dt><strong>宿泊人数</strong></dt>
+                    <dd>
+                      <select class="input">
+                      <option value="1" selected="">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      </select>
+                      <span class="r-txt">人</span>
+                    </dd>
+                  </dl>
+                </td>
+              </tr>
+          </tbody>
+        </table>
+    	</div>
+    	<button type="submit" class="r-btn"><a href="reserve.html">空室検索</a></button>
+     	<button type="submit" class="r-btn"><a href="reserve.html">プラン検索</a></button>
+      </form>
+    </div>
+		<nav class="gnav">
+			<ul class="gnav-wrap">
+				<li class="gnav-item"><a href="spa.html">温泉</a></li>
+				<li class="gnav-item"><a href="guest.html">客室</a></li>
+				<li class="gnav-item"><a href="food.html">食事</a></li>
+        <li class="gnav-item"><a href="plan.html">宿泊プラン</a></li>
+        <li class="gnav-item"><a href="attend.html">館内サービス</a></li>
+        <li class="gnav-item"><a href="index.html#access">アクセス</a></li>
+        <li class="gnav-item"><a href="index.html#contact">お問い合わせ</a></li>
+			</ul>
+		</nav>
+  </header>
+  
+    <div class="contents">
+    <div class="top">
+      <p class="toptxt">おかえりなさいませ。<br>
+        <span>定山渓 北関湯</span></p>
+      <div class="slider">
+        <div><img src="images/main.jpg" alt=""></div>
+        <div><img src="images/room.jpg" alt=""></div>
+        <div><img src="images/room2.jpeg" alt=""></div>
+      </div>
+    <div class="arrow">∨<br>
+    ∨</div>
+    </div>
+
+    <section class="section-box">
+      <h2 class="section-headding">携帯電話も貴方自身もスイッチオフに</h2>
+      <p class="section-txt">喧噪から離れて、「我が家」のように過ごしてほしい・・・そんな想いがちりばめられた旅館です。<br>旅行、記念、息抜きに、心地の良い空間が皆さまをお迎えいたします。</p>
+      <div class="section-wrap">
+        <div class="section-item1">
+          <a href="spa.html"><img src="images/onsen.jpg" alt="">
+          <p class="st">温泉</p>
+          <p class="st-2">～～～温泉説明文が入ります～～～温泉説明文が入ります～～～温泉説明文が入ります～～～</p></a>
+        </div>
+        <div class="section-item2">
+          <a href=""><img src="images/room2.jpg" alt="">
+          <p class="st">部屋</p>
+          <p class="st-2">～～～部屋説明文が入ります～～～部屋説明文が入ります～～～部屋説明文が入ります～～～</p></a>
+        </div>
+       <div class="section-item3">
+          <a href=""><img src="images/food2.jpg" alt="">
+          <p class="st">食事</p>
+          <p class="st-2">～～～食事説明文が入ります～～～食事説明文が入ります～～～食事説明文が入ります～～～</p></a>
+        </div>
+        <div class="section-item4">
+          <a href=""><img src="images/front.jpg" alt="">
+          <p class="st"><span>サービス</span></p>
+          <p class="st-2">～～～サービス説明文が入ります～～～サービス説明文が入ります～～～サービス説明文が入ります～～～</p></a>
+       </div>
+      </div>
+    </section>
+
+    <div id="access">
+      <section class="access-wrap">
+        <h2 class="icon">アクセス</h2>
+        <table class="adress">
+        <tr>
+          <th>住所</th>
+            <td>〒123-4567<br>北海道札幌市南区定山渓111-11</td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+            <td>011-2345-××××</td>
+        </tr>
+        <tr>
+          <th>メール</th>
+          <td>kitakantou@aaa.com</td>
+        </tr>
+        </table>
+        <table class="traffic">
+        <tr>
+          <th>バスでのアクセス</th>
+            <td>札幌駅よりバスで1時間</td>
+        </tr>
+        <tr>
+          <th>お車でのアクセス</th>
+            <td>札幌駅より石山通/国道230号線経由で50分<br>
+            新千歳空港より道央自動車道経由で1時間20分</td>
+        </tr>
+      </table>
+      </section>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.8695215429834!2d141.16056117682365!3d42.96597818671718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdea45bce49069cf!2z5a6a5bGx5riT56ys5LiA5a-25Lqt55WZIOe_oOWxseS6rQ!5e0!3m2!1sja!2sjp!4v1537924249366" width="460" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+      <section id="contact">
+        <h2 class="icon">お問い合わせ</h2>
+        <form action="#">
+          <form action="" method="post">
+          <dl>
+            <dt><span class="required">お名前</span></dt>
+            <dd><input type="text" name="name" class="name" required></dd>
+            <dt><span class="required">メールアドレス</span></dt>
+            <dd><input type="email" name="email" class="email" required></dd>
+            <dt>お電話番号</dt>
+            <dd><input type="tel" name="tel" class="tel" required></dd>
+            <dt>ご希望の連絡方法</dt>
+            <dd>
+            <input type="checkbox" name="contact" value="Eメール" id="contact-email">
+            <label for="contact-email">Eメール</label>
+            <input type="checkbox" name="contact" value="お電話" id="contact-tel">
+            <label for="contact-tel">お電話</label>
+            </dd>
+            <dt>お問い合わせ内容</dt>
+            <dd><textarea name="message" class="message"></textarea></dd>
+          </dl>
+        <button type="submit" class="btn">送信</button>
+       </form>
+
+       <div class="attention">
+        <p>※「<SPAN class="required"></span>」のついている項目は必須項目です。
+        <br>※メッセージ送信後、24時間以内に担当者よりご連絡いたします。</p>
+       </div>
+        </form>
+      </section>
+    </div>
+
+  <footer>
+  	<div class="footer-wrap">
+		<div class="logo"><a href="index.html#outer"><img src="images/logo.png" alt=""></a></div>
+      	<ul>
+          <li class="snav-item"><a href="">温泉について</a></li>
+          <li class="snav-item"><a href="">客室のご案内</a></li>
+          <li class="snav-item"><a href="">こだわりの食事</a></li>
+        </ul>
+        <ul>
+          <li class="snav-item"><a href="">宿泊プラン</a></li>
+          <li class="snav-item"><a href="">館内サービス一覧</a></li>
+        </ul>
+        <ul>
+          <li class="snav-item"><a href="index.html#access">アクセス</a></li>
+          <li class="snav-item"><a href="index.html#contact">お問い合わせ</a></li>
+          <li class="snav-item"><span>Copyright 2018 kitakantou All rights reserved.</span></li>
+        </ul>
+    </div>
+    <canvas id="sineCanvas">
+    <script>
+      (function () {
+ 
+var unit = 100,
+    canvas, context, canvas2, context2,
+    height, width, xAxis, yAxis,
+    draw;
+
+function init() {
+    
+    canvas = document.getElementById("sineCanvas");
+    
+    canvas.width = document.documentElement.clientWidth;
+    canvas.height = 50;
+    
+    context = canvas.getContext("2d");
+    
+    height = canvas.height;
+    width = canvas.width;
+    
+    xAxis = Math.floor(height/2)+20;
+    yAxis = 0;
+    
+    draw();
+}
+
+function draw() {
+    
+    // キャンバスの描画をクリア
+    context.clearRect(0, 0, width, height);
+ 
+    //波を描画
+    drawWave('#ffffff', 1, 3, 0);
+    
+    // Update the time and draw again
+    draw.seconds = draw.seconds + .005;
+    draw.t = draw.seconds*Math.PI;
+    setTimeout(draw, 35);
+};
+draw.seconds = 0;
+draw.t = 0;
+ 
+/**
+* 波を描画
+* drawWave(色, 不透明度, 波の幅のzoom, 波の開始位置の遅れ)
+*/
+function drawWave(color, alpha, zoom, delay) {
+    context.fillStyle = color;
+    context.globalAlpha = alpha;
+ 
+    context.beginPath(); //パスの開始
+    drawSine(draw.t / 0.5, zoom, delay);
+    context.lineTo(width + 10, height); //パスをCanvasの右下へ
+    context.lineTo(0, height); //パスをCanvasの左下へ
+    context.closePath() //パスを閉じる
+    context.fill(); //塗りつぶす
+}
+
+/**
+ * Function to draw sine
+ *
+ * The sine curve is drawn in 10px segments starting at the origin.
+ * drawSine(時間, 波の幅のzoom, 波の開始位置の遅れ)
+ */
+function drawSine(t, zoom, delay) {
+
+    var x = t; //時間を横の位置とする
+    var y = Math.sin(x)/zoom;
+    context.moveTo(yAxis, unit*y+xAxis); //スタート位置にパスを置く
+
+    // Loop to draw segments (横幅の分、波を描画)
+    for (i = yAxis; i <= width + 10; i += 10) {
+        x = t+(-yAxis+i)/unit/zoom;
+        y = Math.sin(x - delay)/3;
+        context.lineTo(i, unit*y+xAxis);
+    }
+}
+
+init();
+
+})();
+</script>
+</div>
+</canvas>
+   </footer>
+  </div>
+</div>
+</body>
+</html>
